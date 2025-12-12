@@ -15,5 +15,3 @@ Website ini digunakan untuk:
 
 Terimakasih sudah mampir
 
-👉 Mulai dari tulisan pertama saya:  
-[Hello World – Jurnal Pertama](/posts/hello-world)
