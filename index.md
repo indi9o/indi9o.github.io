@@ -2,6 +2,10 @@
 layout: default
 ---
 
+<div style="width: 100%; margin-bottom: 30px;">
+    <img src="/images/banner.png" alt="Header Banner" style="width: 100%; height: auto; border-radius: 10px; box-shadow: 0 4px 10px rgba(0,0,0,0.1);">
+</div>
+
 # Halo, Saya Alan 👋
 
 Selamat datang di **Jurnal Teknis** saya.
