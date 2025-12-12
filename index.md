@@ -2,9 +2,20 @@
 layout: default
 ---
 
-# Halo, Saya Indi9o 👋
+# Halo, Saya Alan 👋
 
 Selamat datang di **Jurnal Teknis** saya.
+
+Di sini saya menuliskan catatan, pengalaman, dan hal-hal teknis yang saya pelajari sehari-hari sampai solusi atas masalah yang sering ditemui. Catatan ini dibuat untuk dokumentasi pribadi, sekaligus berbagi agar bisa bermanfaat bagi orang lain.
+
+---
+
+## 🎯 Topik yang Dibahas
+
+- Infrastruktur & jaringan  
+- Keamanan siber  
+- Automasi & tools  
+- Catatan teknis harian  
 
 ---
 
