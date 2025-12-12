@@ -10,15 +10,6 @@ Di sini saya menuliskan catatan, pengalaman, dan hal-hal teknis yang saya pelaja
 
 ---
 
-## 🎯 Topik yang Dibahas
-
-- Infrastruktur & jaringan  
-- Keamanan siber  
-- Automasi & tools  
-- Catatan teknis harian  
-
----
-
 ## 📝 Daftar Artikel
 
 <ul>
