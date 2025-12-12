@@ -10,6 +10,12 @@ Di sini saya menuliskan catatan, pengalaman, dan hal-hal teknis yang saya pelaja
 
 ---
 
+## 🎯 Website ini digunakan untuk:
+- **Dokumentasi teknis**: Supaya kalau saya lupa, tinggal buka blog ini lagi.
+- **Catatan belajar**: Siapa tahu teman-teman ada yang mengalami masalah sama, jadi bisa terbantu lewat tulisan di sini.
+
+---
+
 ## 📝 Daftar Artikel
 
 <ul>
