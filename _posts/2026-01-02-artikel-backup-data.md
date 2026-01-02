@@ -25,6 +25,10 @@ Saya pun memulainya dengan cara sederhana. Setiap kali menyalin direktori "Docum
 
 Seiring waktu, data pribadi menjadi bertambah. Dokumen kerja, arsip lama, catatan, dan berbagai file lain menumpuk di satu folder. Ukuran data semakin besar, proses salin (copy) ke hard disk external semakin lama, dan backup manual mulai terasa tidak efisien.
 
+<div style="width: 100%; margin-bottom: 30px;">
+    <img src="/images/infografis_backup_rsync.jpeg" alt="infografis_backup_rsync" style="width: 100%; height: auto; border-radius: 10px; box-shadow: 0 4px 10px rgba(0,0,0,0.1);">
+</div>
+
 ## ❌ Problem
 Menyalin direktori atau file secara manual tidak memberi informasi apakah semua file sudah benar-benar tersalin. Jika proses BACKUP berhenti di tengah jalan, kita jarang melakukan cek ulang. Masalah lain muncul ketika setiap kali ada perubahan direktori atau file, seluruh direktori harus disalin (copy) ulang. Prosesnya memakan waktu lama dan membosankan (BACKUP makin jarang dilakukan :).
 
