@@ -25,15 +25,15 @@ Saya pun memulainya dengan cara sederhana. Setiap kali menyalin direktori "Docum
 
 Seiring waktu, data pribadi menjadi bertambah. Dokumen kerja, arsip lama, catatan, dan berbagai file lain menumpuk di satu folder. Ukuran data semakin besar, proses salin (copy) ke hard disk external semakin lama, dan backup manual mulai terasa tidak efisien.
 
-## Problem
+## ❌ Problem
 Menyalin direktori atau file secara manual tidak memberi informasi apakah semua file sudah benar-benar tersalin. Jika proses BACKUP berhenti di tengah jalan, kita jarang melakukan cek ulang. Masalah lain muncul ketika setiap kali ada perubahan direktori atau file, seluruh direktori harus disalin (copy) ulang. Prosesnya memakan waktu lama dan membosankan (BACKUP makin jarang dilakukan :).
 
 Untuk mengatasi hal ini, saya mulai menggunakan RSYNC. Alasannya sederhana: RSYNC hanya menyalin file yang berubah. BACKUP berikutnya menjadi jauh lebih cepat.
 
-## Solution
+## ✅ Solution
 RSYNC cocok juga untuk BACKUP data pribadi. RSYNC dirancang untuk sinkronisasi, bukan hanya sekedar menyalin (copy). Setiap kali dijalankan, RSYNC membandingkan data sumber dan tujuan, lalu hanya memproses data yang berbeda.
 
-## Implementasi: Backup Data Pribadi dengan RSYNC
+## 🛠️ Implementasi: Backup Data Pribadi dengan RSYNC
 Dalam praktik sehari-hari, Direktori yang sering dibackup adalah "Documents". Hard disk eksternal biasanya akan  ter-mount otomatis di "/media". Dengan asumsi ini, perintah RSYNC yang digunakan adalah:
 ```bash 
 rsync -avh --progress \
@@ -42,7 +42,7 @@ rsync -avh --progress \
 ```
 Perintah ini adalah salin (copy) isi direktori "Documents" ke hard disk eksternal direktori "BackupDocuments". Opsi -a menjaga struktur direktori dan timestamp, --progress membantu melihat proses BACKUP berjalan.
 
-### Verifikasi
+### 🔍 Verifikasi
 Ketika BACKUP selesai dijalankan, perlu dilakukan verfikasi untuk memastikan hasil BACKUP sesuai dengan sumber, saya menggunakan opsi --dry-run.
 ```bash
 rsync -avh --progress --dry-run \
@@ -51,10 +51,10 @@ rsync -avh --progress --dry-run \
 ```
 Dengan opsi ini, RSYNC hanya membandingkan sumber dan tujuan tanpa menyalin (copy) data. Jika tidak ada output, berarti data sumber dan tujuan sudah sama. Untuk backup data pribadi, metode ini sudah cukup efektif.
 
-## Lesson Learned
+## 📌 Lesson Learned: BACKUP Itu Soal Kebiasaan
 Dari pengalaman menggunakan RSYNC untuk BACKUP data pribadi, saya menyimpulkan bahwa BACKUP bukan soal menggunakan tool yang paling canggih, tetapi ini soal kebiasaan untuk mengamankan data. BACKUP yang sederhana tetapi rutin jauh lebih efektif/bermanfaat. BACKUP yang aman adalah BACKUP yang dilakukan secara berkala dan hasilnya perlu diverifikasi.
 
-## Penutub
+## 🔚 Penutub
 BACKUP data pribadi di laptop Linux dengan tool RSYNC, membuat proses BACKUP lebih sederhana, efisien, dan bisa diulang kapan saja. RSYNC saat ini sudah cukup untuk kebutuhan sehari-hari. 
 
 
