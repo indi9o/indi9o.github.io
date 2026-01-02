@@ -10,7 +10,7 @@ layout: default
 
 Selamat datang di **Jurnal Teknis** saya.
 
-Di sini saya menuliskan catatan, pengalaman, dan hal-hal teknis yang saya pelajari sehari-hari sampai solusi atas masalah yang sering ditemui. Catatan ini dibuat untuk dokumentasi pribadi, sekaligus berbagi agar bisa bermanfaat bagi orang lain.
+Di sini saya menuliskan catatan, pengalaman, pembelajaran, serta berbagai hal teknis yang saya temui dalam keseharian. Catatan ini dibuat sebagai dokumentasi pribadi, sekaligus dibagikan agar bisa berguna bagi siapapun yang membacanya.
 
 ---
 
