@@ -19,7 +19,8 @@ date: 2025-01-02
 
 # Halo 👋. Panduan Praktis Menggunakan RSYNC untuk BACKUP yang Efisien dan Terverifkasi
 
-"Kapan terakhir kali Anda backup data ?? ...dan apakah Anda benar-benar yakin semua file berhasil tersalin (copy) dengan benar?"
+> **Kapan terakhir kali Anda backup data ?**
+> dan **Apakah Anda benar-benar yakin semua file berhasil tersalin (copy) dengan benar?**
 
 BACKUP data pribadi di laptop biasanya baru terpikir ketika ada masalah. Padahal, justru saat tidak ada masalah BACKUP seharusnya dilakukan secara rutin. Selama laptop masih bisa digunakan, file masih bisa dibuka, dan penyimpanan belum penuh BACKUP sering dianggap bukan prioritas.
 
@@ -69,7 +70,11 @@ Prinsip BACKUP yang efektif yaitu:
 2. Berkala & Terverifikasi: BACKUP yang aman adalah BACKUP yang dilakukan secara berkala dan hasilnya perlu diverifikasi.
 
 ## 🔚 Penutub
-Menggunakan RSYNC untuk BACKUP data pribadi di laptop Linux membuat proses menjadi sederhana, efisien, dan mudah diulang kapan saja. Ini adalah dasar untuk keamanan data yang baik.
+Menggunakan RSYNC untuk BACKUP data pribadi di laptop Linux membuat proses menjadi sederhana, efisien, dan mudah diulang kapan saja. Ini adalah dasar untuk memulai keamanan data yang baik.
+
+> **Data Anda `berharga`. Siap untuk `kebiasaan` yang lebih baik ?**
+
+
 
 
 
